@@ -8,7 +8,7 @@ export default function User({ id, name, title, github, image }) {
       <img src={image} alt={name} />
       <h2>{name}</h2>
       <p>{title}</p>
-      <a href={github} target="_blank" rel="noreferrer">View on GitHub</a>
+      <a href={github} target="_blank" rel="noreferrer">Se på GitHub</a>
       <button
         type="button"
         aria-label={`Se ${name}`}
