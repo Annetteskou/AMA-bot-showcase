@@ -1,20 +1,8 @@
-import { useState, useEffect } from 'react'
 import './App.css'
 import Cardlist from './componets/Cardlist'
+import cards from './data/cards.json'
 
 function App() {
-  const [cards, setCards] = useState([]);
-
-  useEffect(() => {
-    async function fetchCards() {
-      const url = "/data/cards.json";
-      const response = await fetch(url);
-      const data = await response.json();
-      setCards(data);
-    }
-    fetchCards();
-  }, []);
-
   return (
     <main className="app">
       <header>
