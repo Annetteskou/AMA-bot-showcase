@@ -1,8 +1,6 @@
 import { Routes, Route } from 'react-router'
 import './App.css'
-import Cardlist from './componets/Cardlist'
-import SingleCard from './componets/SingleCard'
-import cards from './data/cards.json'
+import Footer from './componets/footer.jsx'
 
 function App() {
   return (
