@@ -36,7 +36,7 @@
 
 body {
   margin: 0;
-  background: var(--bg);
+  background: url('/tree.gif') center / cover repeat fixed, var(--bg);
   color: var(--text);
   font-family: system-ui, sans-serif;
   line-height: 1.5;
