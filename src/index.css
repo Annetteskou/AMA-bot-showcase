@@ -53,11 +53,24 @@ header p {
   margin: 6px 0 0;
 }
 
-/* Card grid */
+/* Card grid – X-mønster: 2 kort, 1 i midten, 2 kort */
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.grid .user-card {
+  flex: 0 0 30%;
+  box-sizing: border-box;
+}
+
+/* Midterkortet fylder hele rækken, så det står alene i midten */
+.grid .user-card:nth-child(3) {
+  margin: 0 35%;
 }
 
 /* Card */
@@ -106,12 +119,3 @@ header p {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  .app {
-    padding: 24px 16px;
-  }
-
-  header {
-    padding: 20px;
-  }
-}

@@ -6,15 +6,6 @@
     "name": "Sanne Ellegaard Therkildsen",
     "title": "Studerende"
   },
-
-  {
-    "id": "Amabot-Athena",
-    "image": "/athena.png",
-    "github": "https://github.com/Athenaelenahabibi/qa.git",
-    "name": "Athena Elena",
-    "title": "Studerende"
-  },
-
   {
     "id": "Amabot-Annette",
     "image": "/Annette.jpg",
@@ -22,7 +13,6 @@
     "name": "Annette Skou",
     "title": "Mad Hello Kitty"
   },
-
   {
     "id": "Amabot-Tinus",
     "image": "/Tinus.jpg",
@@ -30,7 +20,13 @@
     "name": "Tinus Behr",
     "title": "Alene i vildmarken"
   },
- 
+  {
+    "id": "Amabot-Athena",
+    "image": "/athena.png",
+    "github": "https://github.com/Athenaelenahabibi/qa.git",
+    "name": "Athena Elena",
+    "title": "Studerende"
+  },
   {
     "id": "Amabot-Candela",
     "image": "/candeT.jpg",
@@ -38,7 +34,4 @@
     "name": "Candela tanja Richard",
     "title": "Head of Snaking"
   }
-
-
-
 ]
