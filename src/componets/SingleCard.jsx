@@ -1,17 +1,7 @@
-import { useParams, Link } from "react-router";
+import { useLoaderData, Link } from "react-router";
 
-export default function SingleCard({ cards }) {
-  const { id } = useParams();
-  const card = cards.find(c => c.id === id);
-
-  if (!card) {
-    return (
-      <section>
-        <p>Person blev ikke fundet.</p>
-        <Link to="/">Tilbage</Link>
-      </section>
-    );
-  }
+export default function SingleCard() {
+  const card = useLoaderData();
 
   return (
     <article className="user-card single-card">
@@ -21,5 +11,14 @@ export default function SingleCard({ cards }) {
       <a href={card.github} target="_blank" rel="noreferrer">Se på GitHub</a>
       <Link to="/">Tilbage til alle</Link>
     </article>
+  );
+}
+
+export function NotFound() {
+  return (
+    <section>
+      <p>Person blev ikke fundet.</p>
+      <Link to="/">Tilbage</Link>
+    </section>
   );
 }

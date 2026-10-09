@@ -1,6 +1,9 @@
+import { useLoaderData } from "react-router";
 import Card from "./Cards";
 
-export default function Cardlist({ cards }) {
+export default function Cardlist() {
+  const cards = useLoaderData();
+
   return (
     <section className="grid">
       {cards.map(card => (
