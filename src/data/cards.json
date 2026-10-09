@@ -9,15 +9,15 @@
 
   {
     "id": "Amabot-Athena",
-    "image": "athena.png",
+    "image": "/athena.png",
     "github": "https://github.com/Athenaelenahabibi/qa.git",
     "name": "Athena Elena",
     "title": "Studerende"
   },
 
   {
-    "id": "Amabot-Anetyte",
-    "image": "Annette.jpg",
+    "id": "Amabot-Annette",
+    "image": "/Annette.jpg",
     "github": "https://github.com/Annetteskou",
     "name": "Annette Skou",
     "title": "Mad Hello Kitty"
