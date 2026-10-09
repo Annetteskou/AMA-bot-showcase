@@ -16,7 +16,7 @@
     outline-offset: 2px;
   }
 }
-
+ 
 .hero {
   position: relative;
 
@@ -182,3 +182,11 @@
     border-right-color: var(--border);
   }
 }
+
+Footer {
+  background: rgb(255, 252, 245);
+  text-align: center;
+  padding: 24px 0;
+  font-size: 14px;
+  color: var(--text-h);
+}   
