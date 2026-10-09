@@ -6,10 +6,11 @@
     "name": "Sanne Ellegaard Therkildsen",
     "title": "Studerende"
   },
+
   {
     "id": "Amabot-Athena",
-    "image": "",
-    "github": "",
+    "image": "athena.png",
+    "github": "https://github.com/Athenaelenahabibi/qa.git",
     "name": "Athena Elena",
     "title": "Studerende"
   }
