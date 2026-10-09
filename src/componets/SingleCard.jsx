@@ -18,7 +18,7 @@ export default function SingleCard({ cards }) {
       <img src={card.image} alt={card.name} />
       <h2>{card.name}</h2>
       <p>{card.title}</p>
-      <a href={card.github} target="_blank" rel="noreferrer">View on GitHub</a>
+      <a href={card.github} target="_blank" rel="noreferrer">Se på GitHub</a>
       <Link to="/">Tilbage til alle</Link>
     </article>
   );
