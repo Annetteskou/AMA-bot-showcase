@@ -1,8 +1,8 @@
 import { Links, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData } from 'react-router'
 import './index.css'
 import './App.css'
-import Header from "./componets/Header";
-import Footer from "./componets/footer";
+import Header from "./components/Header";
+import Footer from "./components/footer";
 import cards from './data/cards.json'
 
 export function Layout({ children }) {

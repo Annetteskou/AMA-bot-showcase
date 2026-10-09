@@ -1,13 +1,8 @@
-import { useLoaderData } from "react-router";
+import { useRouteLoaderData } from "react-router";
 import Card from "./Cards";
-import cards from "../data/cards.json";
-
-export async function clientLoader() {
-  return cards;
-}
 
 export default function Cardlist() {
-  const cards = useLoaderData();
+  const cards = useRouteLoaderData("root");
 
   return (
     <section className="grid">
