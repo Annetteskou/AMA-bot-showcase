@@ -1,8 +1,9 @@
-import { Routes, Route } from 'react-router'
+import { useState } from 'react'
 import './App.css'
-import Footer from './componets/footer.jsx'
+import Header from "./componets/Header";
 
-function App() {
+export default function App() {
+
   return (
     <main className="app">
       <header>
@@ -16,5 +17,3 @@ function App() {
     </main>
   )
 }
-
-export default App
