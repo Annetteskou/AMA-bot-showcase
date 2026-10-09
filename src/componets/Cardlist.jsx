@@ -6,6 +6,7 @@ export default function Cardlist({ cards }) {
       {cards.map(card => (
         <Card
           key={card.id}
+          id={card.id}
           name={card.name}
           title={card.title}
           github={card.github}
